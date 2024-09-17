@@ -1,20 +1,22 @@
 {
-  "name": "monorepo",
+  "name": "@thani-sh/prayer-time-lk",
   "type": "module",
-  "version": "1.0.0",
-  "private": true,
+  "version": "1.2.0",
+  "description": "Islamic prayer times for Sri Lanka as a JavaScript Module",
+  "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
-    "dev": "yarn workspaces foreach --all --parallel --interlaced run dev"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "workspaces": [
-    "apps/*",
-    "libs/*"
-  ],
-  "devDependencies": {
-    "@yarnpkg/types": "^4.0.0"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thani-sh/prayer-time-lk-lib.git"
   },
-  "engines": {
-    "node": ">=20.0.0"
+  "keywords": [],
+  "author": "Thanish Nizam <mnmtanish@gmail.com> (https://thanish.me/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thani-sh/prayer-time-lk-lib/issues"
   },
-  "packageManager": "yarn@4.0.2"
+  "homepage": "https://github.com/thani-sh/prayer-time-lk-lib#readme"
 }
